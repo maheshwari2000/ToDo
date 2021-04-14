@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monaco, Consolas, "Lucida Console", monospace;
+}
+#main{
+    height: 500px;
+    width: 600px;
+    background-color: blueviolet;
+}
+h1{
+    text-align: center;
+}
+input{
+    margin-left: 28%;
+    font-size: large;
+    font-weight: bold;
+    outline: none;
+}
+button{
+    font-size: large;
+    font-weight: bold;
+}
+#todo-list{
+    margin: 2%;
+    height: 368px;
+    background-color: coral;
+    overflow-y: auto;
+}
+.cross{
+    float: right;
+    cursor: pointer;
+}
